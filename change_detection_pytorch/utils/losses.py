@@ -3,6 +3,7 @@ import torch.nn as nn
 from . import base
 from . import functional as F
 from ..base.modules import Activation
+import change_detection_pytorch as cdp
 
 # See change_detection_pytorch/losses
 # class JaccardLoss(base.Loss):
